@@ -123,6 +123,11 @@ button:hover {
   height: 40px;
   padding-top: 0.3em;
   width: 40px;
+  cursor: pointer;
+}
+
+footer ul li {
+  display: inline;
 }
 
 .fab:hover {
