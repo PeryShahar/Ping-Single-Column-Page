@@ -25,37 +25,41 @@
     <title>Ping Single Column Page</title>
   </head>
   <body>
-    <div class="container">
-      <img class="logo" src="./images/logo.svg" alt="logo" />
-      <h1 class="header">We are launching <span>soon!</span></h1>
-      <h2 class="sub__header">Subscribe and get notified</h2>
-      <form id="form">
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Your email address..."
+    <main>
+      <div class="container">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <h1 class="header">We are launching <span>soon!</span></h1>
+        <h2 class="sub__header">Subscribe and get notified</h2>
+        <form id="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address..."
+          />
+          <small>Please provide a valid email</small>
+
+          <button>Notify Me</button>
+        </form>
+        <img
+          class="dashboard"
+          src="./images/illustration-dashboard.png"
+          alt="dashboard"
         />
-        <small>Please provide a valid email</small>
 
-        <button>Notify Me</button>
-      </form>
-      <img
-        class="dashboard"
-        src="./images/illustration-dashboard.png"
-        alt="dashboard"
-      />
+        <footer>
+          <div class="contact">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
 
-      <footer>
-        <div class="contact">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-        </div>
-
-        <p class="footer__text">&copy; Copyright Ping. All rights reserved.</p>
-      </footer>
-    </div>
+          <p class="footer__text">
+            &copy; Copyright Ping. All rights reserved.
+          </p>
+        </footer>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
